@@ -5,9 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="icon" type="image/svg+xml" href="../../images/kenya-shield.png" />
+
 </head>
-<body>
-    <h1>This is the flag of Kenya</h1>
-    <a href="../../index.html">Back Home</a>
+<body class="flex justify-center flex-col items-center">
+    <h1 class="font-ubuntu text-2xl">This is the flag of Kenya</h1>
+    <div class="ml-6 relative w-fit h-full flex flex-col justify-center">
+        <img src="../../images/kenya-shield.png" alt="" class="w-28 absolute left-[40%]">
+        <div class="bg-black main-zone rounded-t-md"></div>
+        <div class="white-zone"></div>
+        <div class="bg-red-600 main-zone"></div>
+        <div class="white-zone"></div>
+        <div class="bg-green-900 main-zone rounded-b-md"></div>
+    </div>
+    
+    <a href="../../index.html" class="links mt-2 bg-green-600">Back Home</a>
 </body>
 </html>
