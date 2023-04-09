@@ -12,16 +12,23 @@
     .links {
         @apply bg-purple-600 p-4 text-xl font-nunito rounded-md hover:bg-red-600 hover:underline;
     }
+
+    .description-box {
+        @apply h-96 w-[18%] rounded-md shadow-lg;
+    }
 }
 
-/* @layer base {
-    h1 {
-       font-size: 50px;
-    }
-} */
+.description-image {
+    @apply w-full flex justify-center p-8;
+}
 
 
 
 .white-zone {
     @apply bg-white h-5 w-[50rem];
 }
+
+.headings {
+    @apply font-nunito font-bold text-center text-2xl;
+}
+
